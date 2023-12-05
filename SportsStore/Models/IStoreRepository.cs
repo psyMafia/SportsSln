@@ -1,5 +1,6 @@
 ﻿namespace SportsStore.Models
 {
+    //dotnet ef database drop --force --context StoreDbContext
     public interface IStoreRepository
     {
         IQueryable<Product> Products { get; }

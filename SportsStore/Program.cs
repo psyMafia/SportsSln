@@ -22,3 +22,6 @@ app.MapDefaultControllerRoute();
 SeedData.EnsurePopulated(app); 
 
 app.Run();
+
+//RESETTING THE DATABASE
+//dotnet ef database drop --force --context StoreDbContext
